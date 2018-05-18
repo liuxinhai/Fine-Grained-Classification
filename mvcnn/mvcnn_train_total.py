@@ -12,7 +12,7 @@ os.environ['CUDA_VISIBLE_DEVICES']='3'
 train_path = '/home2/lxh/Faster_RCNN_Train_Data/airplane_v1/train/'
 train_files = os.listdir(train_path)
 train_files.sort()
-train_labels = np.load('/home2/lxh/Faster_RCNN_Train_Data/airplane_v1/train_labels.npy')
+train_labels = np.load('/home2/lxh/Faster_RCNN_Train_Data/airplane_v1/train_label.npy')
 
 batch_size = 60
 model_views = 12
