@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ae37e9e8-7a17-4229-8db7-b50609ece541" name="Server36" url="http://166.111.80.36">
+        <fileTransfer host="166.111.80.36" port="22" rootFolder="/home/liuxinhai/fine-grained" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
